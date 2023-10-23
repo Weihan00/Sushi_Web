@@ -18,7 +18,7 @@
 .popular__btns {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    overflow-x: auto;
     gap: 1.5rem;
     margin-bottom: 3rem;
 }
