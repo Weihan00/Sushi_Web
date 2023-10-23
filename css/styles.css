@@ -1,19 +1,19 @@
-@import url("./order.css");
+@import url("./general.css");
 @import url("./nav.css");
 @import url("./popular.css");
-@import url("./about.css");
 @import url("./trend.css");
 @import url("./footer.css");
 @import url("./subscribe.css");
+@import url("./about.css");
+@import url("./order.css");
+
 :root {
     --primary-color:#b1454a;
     --playfair-display : "Playfair Display", serif
 }
 
 body {
-    width: 100%;
     margin: 0;
-
     font-family: var(--playfair-display);
     font-size: 62.5%;
     background: #fff0de;
@@ -24,58 +24,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-
+}
 
 h1,h2,h3 {
     margin: 0;
 }
-
-/* NORMAL */
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.list {
-    list-style: none;
-}
-
-.grid {
-    display: grid;
-}
-
-.flex-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-
-.btn {
-    background: #000;
-    border-radius: 40px;
-    border: none;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1.2rem 3rem;
-}
-
-.black__header {
-    font-size: 5rem;
-    margin: 2rem 0;
-    width: 100%;
-}
-
-.header__desc {
-    font-size: 1.2rem;
-    padding-left: 2rem;
-}
-
-
-.btn--small {
-    padding: 0 1.5rem;
-}
-
-
 

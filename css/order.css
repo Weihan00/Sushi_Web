@@ -28,7 +28,7 @@
 }
 
 .order__heading {
-    padding: 4rem 4rem 1.5rem 4rem;
+    padding: 1rem;
 }
 
 .order__operation {
@@ -47,26 +47,28 @@
 }
 
 .order__customer {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     background: #fff;
-    padding: 2rem 1.5rem;
+    /* padding: 3rem 5rem; */
 }
 
 .customer-num {
+    flex: 1;
+
     padding: 0 2rem;
     border-right: 1px solid #ccc;
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
 }
-
+/* 
 .customer-num >span {
     display: inline-flex;
-}
+} */
 
 .customer-num > h2 {
     font-size: 3.5rem;
@@ -81,7 +83,7 @@
 }
 
 .user-comment {
-    flex: 1;
+    flex: 1.5;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -106,6 +108,10 @@
 
     .order__customer {
         flex-wrap: nowrap;
+    }
+
+    .order__heading {
+        padding: 4rem;
     }
 
     .sushi__img {    

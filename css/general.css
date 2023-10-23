@@ -1,0 +1,45 @@
+/* NORMAL */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.list {
+    list-style: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+.btn {
+    background: #000;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+}
+
+.black__header {
+    font-size: 5rem;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.header__desc {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+
+
+.btn--small {
+    padding: 0 1.5rem;
+}
