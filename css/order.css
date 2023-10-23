@@ -1,0 +1,115 @@
+
+/* Order */
+.order-container {
+    display: flex;
+}
+.order__sushi {
+    background: var(--primary-color);
+    position: relative;
+}
+
+.sushi__img {    
+    width: 100%;
+}
+
+.order__sushi > h2 {
+    font-size: 7rem;
+    color: #fff;
+    position: absolute;
+    margin: 0;
+    bottom: 2rem;
+    left: 3rem;
+}
+
+.order__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.order__heading {
+    padding: 4rem 4rem 1.5rem 4rem;
+}
+
+.order__operation {
+    display: flex;
+    align-items: center;
+    margin: 3rem 2rem;
+}
+
+.order__btn {
+    margin-right: 2rem;
+}
+
+.how_order {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+}
+
+.order__customer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #fff;
+    padding: 2rem 1.5rem;
+}
+
+.customer-num {
+    padding: 0 2rem;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-num >span {
+    display: inline-flex;
+}
+
+.customer-num > h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.customer-num > p {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #777;
+
+}
+
+.user-comment {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user__img {
+    width: 45px;   
+    float: left;
+}
+
+.comment__text {
+    line-height: 1.5rem;
+
+}
+
+
+
+@media screen and (min-width:768px) {
+    .order-container .grid--1x2 {
+        grid-template-columns: 45% 55%;
+    }   
+
+    .order__customer {
+        flex-wrap: nowrap;
+    }
+
+    .sushi__img {    
+        width: 120%;
+    }
+}
+

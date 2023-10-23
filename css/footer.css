@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.footer__sushi {
+    color: var(--primary-color);
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.social > li {
+    background: #000;
+    padding: 10px;
+    border-radius:20px ;
+}
+
+.social >li >img{
+    height: 20px;
+    width: 20px;
+}
+
+.footer__menu {
+    justify-content: center;
+}
+
+
